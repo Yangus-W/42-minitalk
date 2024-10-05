@@ -6,7 +6,7 @@
 /*   By: yawang <yawang@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/30 12:06:50 by yawang            #+#    #+#             */
-/*   Updated: 2024/10/04 15:22:47 by yawang           ###   ########.fr       */
+/*   Updated: 2024/10/05 12:03:57 by yawang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,10 +60,7 @@ int	main(int argc, char **argv)
 		}
 		send_message(server_id, message);
 	}
-	else
-	{
-		ft_printf("Error: wrong number of arguments. Please try again.");
-		ft_printf("Example: ./client <PID> <MESSAGE>");
-	}
+	ft_printf("Error: wrong number of arguments. Please try again.");
+	ft_printf("Example: ./client <PID> <MESSAGE>");
 	return (0);
 }
