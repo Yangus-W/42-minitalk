@@ -6,7 +6,7 @@
 #    By: yawang <yawang@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/08 16:09:25 by yawang            #+#    #+#              #
-#    Updated: 2024/10/08 17:21:38 by yawang           ###   ########.fr        #
+#    Updated: 2024/10/08 17:37:34 by yawang           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -53,4 +53,4 @@ fclean: clean
 
 re: fclean all
 
-.PHONY: libft printf
+.PHONY: all clean fclean re libft ft_printf
